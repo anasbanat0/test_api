@@ -9,7 +9,6 @@ async function getInfo() {
 		console.log("Error: ", e.message);
 	}
 }
-
 function printData(data) {
 	const header = document.querySelector("#header");
 	const content = document.querySelector("#content");
