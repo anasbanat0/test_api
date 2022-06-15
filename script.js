@@ -1,5 +1,4 @@
 const api = "https://www.breakingbadapi.com/api/characters/";
-
 async function getInfo() {
 	try{
 		const response = await fetch(api);
@@ -9,7 +8,6 @@ async function getInfo() {
 		console.log("Error: ", e.message);
 	}
 }
-
 function printData(data) {
 	const header = document.querySelector("#header");
 	const content = document.querySelector("#content");
